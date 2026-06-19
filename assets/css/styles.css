@@ -1,0 +1,69 @@
+:root
+{
+ --primario: antiquewhite;
+ --secundario:#D7E6FA;
+ --letras:#113f6b;
+ --bordes: #0b294a;
+}
+body
+    {
+    background-color: var(--primario);
+    border-color: var(--bordes);
+    color: var(--letras);
+    }
+
+fieldset{border-color: var(--bordes);}
+
+
+h1{text-align: center}
+h2{text-decoration-line: underline;}
+
+.contenedor
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.bloques
+    {
+    flex: 1;
+    border: 4px solid;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 5%;
+    text-align: center;  
+    width: fit-content;
+    }
+
+
+.historial
+    {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    }   
+
+#links
+    {
+    padding: 25px;
+    margin: 25px;        
+    text-align: center;
+    font-size: x-large;
+    }
+
+.cajaFija
+    {
+    overflow-y: scroll; /* para generar un scroll al desbordarse */
+    border: 2px solid;
+    max-height: 150px; /* condicion de desboradmiento */
+    }
+
+.cajaTarea
+    {
+    background-color: var(--secundario);
+    border: 3px solid;
+    padding: 10px;
+    margin: 10px;
+    }

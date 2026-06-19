@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 4</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+
+<h1>Clases y Objetos</h1>
+
+<section class="cajaTarea">
+    <h2>Clase Alumno</h2>
+    
+    <form id="datosFormulario">
+        <fieldset>
+            <legend>Datos de Alumnos</legend>
+                <label for="">Nombre</label>
+                <input type="text" name="" id="aluNombre" value="Nombre">
+                <br>
+                <label for="">Edad</label>
+                <input type="number" name="" id="aluEdad" value="3">
+                <br>
+                <label for="">Carrera</label>
+                <input type="text" name="" id="aluCarrera" value="Carrera">
+                <br>
+                <br>
+                <button>Procesar Datos</button>
+        </fieldset>
+    </form>
+
+    <div class="historial">
+    Registro Nuevo
+    <br>
+    <span id="regNuevo"></span>
+    </div>
+    <div class="cajaFija historial">
+    Registros Anteriores
+    <br>
+    <br>
+    <span id="regAnteriores"></span>
+    </div>
+</section>
+
+<section class="cajaTarea">
+    <h2>Clase Banda Musical</h2>
+    
+    <form id="datosBanda">
+    <fieldset>
+        <legend>Datos de la Banda</legend>
+            <label for="">Nombre</label>
+            <input type="text" name="" id="bandaNombre" value="Metal Vikingo">
+            <br>
+            <label for="">Genero</label>
+            <input type="text" name="" id="bandaGenero" value="Soft Metal">
+            <br>
+            <label for="">Integrantes</label>
+            <input type="text" name="" id="bandaIntegrantes" value="Eivor Randy Raavi">
+            <br>
+            <label for="">Discos</label>
+            <input type="text" name="" id="bandaDiscos" value="Grandes exitos otros temazos">
+            <br>
+            <br>
+            <button>Registrar Datos</button>
+            <button type="button" id="mostrarInfoBanda">Informacion de la Banda</button>
+            <button type="button" id="listarDiscos">Discos de la banda</button>
+    </fieldset>
+</form>
+</section>
+
+<section class="cajaTarea">
+    <h2>Clase Perro</h2>
+    <form id="datosPerro">
+        <fieldset>
+            <legend>Datos del Perro</legend>
+                <label for="">Nombre</label>
+                <input class="perroNombre" type="text" name=""  value="Terry">
+                <br>
+                <label for="">Raza</label>
+                <input class="perroRaza" type="text" name="" value="Kiltro?">
+                <br>
+                <label for="">Edad</label>
+                <input class="perroEdad" type="number" name="" value="2">
+                <br>
+                <br>
+                <button type="submit">Procesar Datos</button>
+                <button type="button" id="mostrarInfoPerro">Mostrar Datos del Perro</button>
+                <button type="button" id="ladrar">Ladrar</button>
+        </fieldset>
+    </form>
+</section>
+
+
+<div id="links">
+        <a href="./index.html">Volver al Inicio</a>
+</div>
+
+<script src="./assets/js/appTarea1.js"></script>
+</body>
+</html>
