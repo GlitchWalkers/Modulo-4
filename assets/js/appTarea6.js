@@ -10,7 +10,7 @@ function llamadaApi ()
         .then(Response => Response.json())
         .then(data => {informacion = data;});
     document.getElementById("cargaDatos").disabled=true;
-    setTimeout(()=>activarBotones.forEach(activarBotones => {activarBotones.disabled = false;}),1000); //revisar un valor optimo
+    setTimeout(()=>activarBotones.forEach(activarBotones => {activarBotones.disabled = false;}),1000); //buscar si es posible saber si fetch se completo
     };
 
 const botonMostrarInfo = document.getElementById("mostrarInfo");

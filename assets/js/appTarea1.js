@@ -15,7 +15,7 @@ class alumno //clase
     };
 
 const cargaDatos = document.getElementById("datosFormulario");
-cargaDatos.addEventListener("submit", ()=> agregarAlumno());
+cargaDatos.addEventListener("submit", () => agregarAlumno());
 let aluId = 0;
 const planillaAlumnos = [];
 
