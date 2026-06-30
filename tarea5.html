@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 4 - Tarea 5</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+<h1>Manejo de Promesas</h1>
+
+<section class="cajaTarea">
+<h2>1.- Promesa con retardo</h2>
+    <div>
+    <p>Desea Mostrar la informacion?</p>
+        <!-- tienen que tener el mismo name o sino deja elegir multiples. el required es para elegir sea mandatorio -->
+        <input type="radio" id="si" name="resp" value="si" required>
+        <label for="si">Sí</label>
+        <input type="radio" id="no" name="resp" value="no">
+        <label for="no">No</label>
+        <br><br>
+        <button id="ejecutar">Ejecutar</button> 
+    </div>
+    <div id="panel1" class="historial_ligero">
+    Esperando acciones...
+    </div>
+</section>
+
+<section class="cajaTarea">
+<h2>2.- Promesa en funcion del tiempo</h2>
+ <div>
+        <button id="ejecutar2">Checkear Hora</button> 
+    </div>
+    <div id="panel2" class="historial_ligero">
+    
+    </div>
+</section>
+
+<section class="cajaTarea">
+<h2>3.- Promesa con proceso pesado</h2>
+   <div>
+        <button id="ejecutar3">Ejecutar</button> 
+    </div>
+    <div id="panel3" class="historial_ligero">
+    Esperando acciones...
+    </div>
+</section>
+
+<div id="links">
+        <a href="./index.html">Volver al Inicio</a>
+        
+</div>
+
+<script src="./assets/js/appTarea5.js"></script>
+</body>
+</html>

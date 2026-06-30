@@ -46,7 +46,15 @@ h2{text-decoration-line: underline;}
     padding: 10px;
     font-size: large;
     font-weight: bold;
-    }   
+    }
+
+.historial_ligero
+    {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px;
+    padding: 15px;
+    font-size: x-large;
+    }      
 
 #links
     {
